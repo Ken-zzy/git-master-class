@@ -1,7 +1,7 @@
 #Random guessing game
 import random
 rand = random.randint(0,10)
-ans = int(input("Input a number: "))
+ans = int(input("Input a num: "))
 if ans == rand:
     print("Correct!")
 else:
